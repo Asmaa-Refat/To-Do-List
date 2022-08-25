@@ -1,0 +1,18 @@
+<div class="title">
+    To-Do List :
+</div>
+
+
+<div class="container">
+
+    <input class="input" type="text"  placeholder="Enter a to do" [(ngModel)]="currentContent" />
+    
+    <button class="add" (click)="addToDo()">Add</button>
+
+    <div *ngFor="let toDo of toDos; let i = index">
+        <div class="line">
+            {{i+1}} - {{toDo.content}} 
+            <button  class="remove" (click)="deleteToDo(i)">x</button>
+        </div>
+    </div>
+</div>

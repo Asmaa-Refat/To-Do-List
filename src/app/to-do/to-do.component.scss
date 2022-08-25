@@ -1,0 +1,75 @@
+div.title {
+    font-family: sans-serif;
+    color: aliceblue;
+    background-color: #cfded9;
+    font-size: 30px;
+    margin: 25px;
+    margin-top: 160px;
+    box-shadow: -1px -1px 7px #75a1a0;
+    width: 14%;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+button {
+   // color: #75a1a0;
+    height: 44px;
+    width: 64px;
+    border-radius: 39px;
+    border: none;
+    margin: 5px;
+}
+
+button.add {
+    background: #75a1a0;
+    color: aliceblue;
+}
+
+div.container {
+    margin: -75px;
+    margin-left: 20%;
+    background: aliceblue;
+    width: 32%;
+    padding: 10px;
+    border-radius: 19px;
+    min-height: 53%;
+    margin-left: 33%;
+    margin-top: -9%;
+    box-shadow: 0px 1px 7px #75a1a0;
+}
+
+.input {
+    width: 346px;
+    border: none;
+    height: 22px;
+    padding: 12px;
+    border-radius: 39px;
+    background-color: aliceblue;
+    color: #75a1a0;
+    border: 1px solid #f6bdb1;
+}
+
+input:focus , button:focus {
+	outline: none;
+}
+
+
+button.remove  {
+    margin-left: 366px;
+    color: red;
+    background-color: transparent;
+    font-size: large;
+    margin-top: -30px;
+    float: right;
+}
+
+div.line {
+    background-color: #ffffe6;
+    color: #75a1a0;
+    padding: 15px;
+    height: 15px;
+    border-radius: 10%;
+    margin: 8px;
+    margin-top: 19px;
+    font-size: large;
+}
